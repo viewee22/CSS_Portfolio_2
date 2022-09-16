@@ -1,10 +1,6 @@
-@font-face {
-  font-family: "나눔스퀘어";
-  src: url(../font/NanumSquare-master/NanumSquareR.woff);
-}
 body {
   margin: 0px;
-  font-family: "나눔스퀘어", "gulim";
+  font-family: "Noto Sans KR", sans-serif;
   transform: rotate(0.03deg);
 }
 
@@ -72,7 +68,7 @@ h4 {
 }
 
 progress {
-  /* -webkit-appearance: none; */
+  -webkit-appearance: none;
 }
 progress[value]::-webkit-progress-value {
   background-color: red;
