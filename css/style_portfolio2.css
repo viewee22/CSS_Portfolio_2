@@ -1,0 +1,103 @@
+@font-face {
+  font-family: "나눔스퀘어";
+  src: url(../font/NanumSquare-master/NanumSquareR.woff);
+}
+body {
+  margin: 0px;
+  font-family: "나눔스퀘어", "gulim";
+  transform: rotate(0.03deg);
+}
+
+div,
+input,
+button,
+textarea {
+  box-sizing: border-box;
+}
+p,
+h2,
+h3,
+h4 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.bg-gray {
+  background-color: #eee;
+}
+.bg-sky {
+  background-color: rgb(88, 177, 233);
+}
+.c-white {
+  color: white;
+}
+.c-sky {
+  color: rgb(88, 177, 233);
+}
+.line {
+  border-bottom: 2px solid rgb(155, 155, 155);
+}
+.line-c-sky {
+  border-color: rgb(88, 177, 233);
+}
+.t-center {
+  text-align: center;
+}
+.profile-2 {
+  font-size: 20px;
+}
+.detail-1 {
+  height: 400px;
+}
+.detail-2 {
+  height: 500px;
+}
+.detail-3 i {
+  font-size: 60px;
+}
+.detail-3 p {
+  font-size: 12px;
+}
+.detail-4-1 {
+  font-size: 12px;
+  font-weight: bold;
+}
+.detail-4-2 {
+  font-size: 13px;
+}
+
+.detail-4-3 {
+  font-size: 10px;
+  margin: 2px;
+}
+
+progress {
+  /* -webkit-appearance: none; */
+}
+progress[value]::-webkit-progress-value {
+  background-color: red;
+  border-radius: 2px;
+}
+progress[value]::-webkit-progress-bar {
+  background-color: #eee;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+progress[value]::-webkit-progress-value::before {
+  content: "80%";
+  position: absolute;
+  right: 0;
+  top: -125%;
+}
+
+@media screen and (max-width: 992px) {
+  .detail-1 {
+    height: 100%;
+  }
+  .detail-2 {
+    height: 100%;
+  }
+  .profile-2 {
+    font-size: 15px;
+  }
+}
